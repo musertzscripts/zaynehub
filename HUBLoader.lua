@@ -43,7 +43,7 @@ local Button = LoadTab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
+local Button = LoadTab:CreateButton({
    Name = "Load: Murders vs Sheriffs Duels [v1.0]",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/musertzscripts/zaynehub/refs/heads/main/%2C.lua"))()
