@@ -44,8 +44,8 @@ local Button = LoadTab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Load: Murders vs Sheriffs Duels [COMINGSOON!!]",
+   Name = "Load: Murders vs Sheriffs Duels [v1.0]",
    Callback = function()
-   -- The function that takes place when the button is pressed
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/musertzscripts/zaynehub/refs/heads/main/%2C.lua"))()
    end,
 })
