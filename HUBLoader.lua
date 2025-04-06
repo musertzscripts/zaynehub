@@ -49,3 +49,10 @@ local Button = LoadTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/musertzscripts/zaynehub/refs/heads/main/%2C.lua"))()
    end,
 })
+
+local Button = LoadTab:CreateButton({
+   Name = "Load: Combat Surf [v1.0]",
+   Callback = function()
+   -- The function that takes place when the button is pressed
+   end,
+})
